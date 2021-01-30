@@ -6,7 +6,7 @@ public class Transacao {
 	
 		 private int id;
 		 private OffsetDateTime data;
-		 private Double valor;
+		 private Double valor$;
 		 
 		 public Transacao() {
 		  super();
@@ -16,7 +16,7 @@ public class Transacao {
 		  super();
 		  this.id = id;
 		  this.data = data;
-		  this.valor = valor;
+		  this.valor$ = valor;
 		 }
 
 		 public int getId() {
@@ -36,11 +36,11 @@ public class Transacao {
 		 }
 
 		 public Double getValor() {
-		  return valor;
+		  return valor$;
 		 }
 
-		 public void setValor(Double valor) {
-		  this.valor = valor;
+		 public void setValor(Double valor$) {
+		  this.valor$ = valor$;
 		 }
 
 }
