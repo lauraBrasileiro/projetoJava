@@ -1,4 +1,4 @@
-package com.caseItauUnibanco.serviceImpl;
+package com.caseItauUnibanco.restJava.serviceImpl;
 
 import java.time.OffsetDateTime;
 import java.util.ArrayList;
@@ -7,8 +7,8 @@ import java.util.Random;
 
 import org.springframework.stereotype.Component;
 
-import com.caseItauUnibanco.model.Transacao;
-import com.caseItauUnibanco.service.TransacaoService;
+import com.caseItauUnibanco.restJava.model.Transacao;
+import com.caseItauUnibanco.restJava.service.TransacaoService;
 
 @Component
 public class TransacaoServiceImpl implements TransacaoService {

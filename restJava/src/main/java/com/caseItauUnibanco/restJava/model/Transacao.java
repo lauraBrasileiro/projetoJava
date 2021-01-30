@@ -1,4 +1,4 @@
-package com.caseItauUnibanco.model;
+package com.caseItauUnibanco.restJava.model;
 
 import java.time.OffsetDateTime;
 
