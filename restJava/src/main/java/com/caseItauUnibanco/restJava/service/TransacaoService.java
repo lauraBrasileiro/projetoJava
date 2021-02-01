@@ -2,7 +2,7 @@ package com.caseItauUnibanco.restJava.service;
 import java.util.List;
 
 import com.caseItauUnibanco.restJava.model.Transacao;
-
+import java.util.DoubleSummaryStatistics;
 
 
 public interface TransacaoService {
@@ -15,4 +15,9 @@ public interface TransacaoService {
   
  public void deleteTransacao(int id);
  
+ public void getEstatistica();
+
+ 
+ 
+
 }
